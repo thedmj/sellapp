@@ -1,0 +1,19 @@
+html,body{font-weight: 200;font-family: "PingFang SC","Micalsoft YaHei";}
+.clearfix{display:inline-block;
+    &:after{content: '';display: block;height:0;clear:both;}
+}
+ul{list-style: none;}
+.fade-enter{opacity: 0;}
+.fade-enter-active{transition: .3s;}
+.fade-leave-active{transition: .3s;opacity: 0;}
+.fadebutton-enter{opacity: 0;transform:translate3d(36px,0,0) rotate(180deg);}
+.fadebutton-enter-active{transition: 0.3s;}
+.fadebutton-leave-active{transition: 0.3s;opacity: 0;transform:translate3d(36px,0,0) rotate(180deg);}
+
+.shopcartfade-enter{transform:translate3d(0,0,0) !important;}
+.shopcartfade-enter-active{transition:all 0.6s;}
+.shopcartfade-leave-active{transition:all 0.6s;transform:translate3d(0,0,0) !important;;}
+
+.fadein-right-enter{transform: translate3d(100%,0,0);}
+.fadein-right-enter-active{transition:0.6s;}
+.fadein-right-leave-active{transition:0.6s;transform: translate3d(100%,0,0);}
